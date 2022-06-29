@@ -77,6 +77,8 @@ cat >/srv/waxship01/etc/config.ini<<'EOT'
 chain-state-db-size-mb = 150000
 reversible-blocks-db-size-mb = 2048
 read-mode = head
+api-accept-transactions = false
+p2p-accept-transactions = false
 wasm-runtime = eos-vm-jit
 eos-vm-oc-enable = true
 validation-mode = light
