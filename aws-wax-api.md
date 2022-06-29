@@ -153,4 +153,7 @@ kill %1
 
 # start the node as a service
 systemctl start nodeos@waxapi01
+
+# check the resync performance (roughly, 30 blocks per second)
+cleos -u http://127.0.0.1:8901 get info; sleep 60; cleos -u http://127.0.0.1:8901 get info
 ```
