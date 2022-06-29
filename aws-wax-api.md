@@ -14,7 +14,7 @@ localectl set-locale LANG=C.UTF-8
 
 apt-get update && apt-get install -y git zfsutils-linux sysstat ntp net-tools curl zstd
 
-
+# this creates 96GB swap partition and the rest goes to ZFS
 parted /dev/nvme1n1 -s -- mklabel gpt mkpart P1 linux-swap 2048s 96Gib mkpart P2 zfs 96Gib -64s
 
 mkswap /dev/nvme1n1p1
