@@ -2,7 +2,7 @@
 
 ```
 Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2022-06-10
-Instance type: z1d.3xlarge
+Instance type: z1d.3xlarge  (approx. $1000/month)
 CPU: Intel(R) Xeon(R) Platinum 8151 CPU @ 3.40GHz
 Root volume: /dev/nvme0n1: 8 GiB
 Data volume: /dev/nvme1n1: 419.1 GiB
