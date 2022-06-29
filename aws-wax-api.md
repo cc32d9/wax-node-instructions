@@ -120,7 +120,6 @@ cat > /srv/waxapi01/etc/logging.json << 'EOT'
       "enabled": true
     }
   ],
-
   "loggers": [{
       "name": "default",
       "level": "warn",
