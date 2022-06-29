@@ -141,7 +141,7 @@ curl -L https://snapshots.eosnation.io/wax-v4/latest | zstd -d >wax_latest_snaps
 
 # initialize the node in the background. As soon as it starts answering on its HTTP port, stop it with kill command
 # the initialization may take a half an hour
-/usr/bin/nodeos --data-dir /srv/waxapi01/data --config-dir /srv/waxapi01/etc --snapshot=/zdata/wax_latest_snapshot.bin &
+nohup /usr/bin/nodeos --data-dir /srv/waxapi01/data --config-dir /srv/waxapi01/etc --snapshot=/zdata/wax_latest_snapshot.bin &
 
 # check if the node is up and starts lustening on 8901
 netstat -an --tcp
