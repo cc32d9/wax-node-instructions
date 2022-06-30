@@ -2,7 +2,7 @@
 
 ```
 Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2022-06-10
-Instance type: r5b.4xlarge (128GB RAM, Intel Xeon Platinum 8259CL)
+Instance type: r5b.4xlarge (128GB RAM, Intel Xeon Platinum 8259CL, approx. $1200/month)
 /dev/nvme1n1: 200 GiB swap
 /dev/nvme2n1: 1000 GiB data
 
