@@ -148,7 +148,7 @@ curl -L https://snapshots.eosnation.io/wax-v4/latest | zstd -d >wax_latest_snaps
 # Swap memory usage is over 88GB in peak
 nohup /usr/bin/nodeos --data-dir /srv/waxship01/data --config-dir /srv/waxship01/etc --disable-replay-opts --snapshot=/zdata/wax_latest_snapshot.bin &
 
-# check if the node is up and starts lustening on 8901
+# check if the node is up and starts listening on 8901
 netstat -an --tcp
 
 # after it opens the TCP ports, it starts writing the first state history block. This requires a lot of CPU and RAM.
